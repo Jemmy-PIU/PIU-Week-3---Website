@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <font face="arial, san-serif">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Page Link | Week 3 - Assignment</title>
+    </head>
+
+    <body id="top">
+      <h1>Register Form</h1>
+      <form action="mailto:contact@jemeow.com" method="get">
+        <table>
+          <tr>
+            <td>
+              <label for="email">Email *</label>
+            </td>
+            <td colspan="3">
+              <input
+                type="text"
+                id="email"
+                name="email"
+                pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="pw"
+                >Password * <br />
+                (Min length 8 characters)
+              </label>
+            </td>
+            <td>
+              <input type="password" id="pw" name="pw" minlength="8" required />
+            </td>
+            <td>
+              <label for="cpw">Confirm Password *</label>
+            </td>
+            <td>
+              <input
+                type="password"
+                id="cpw"
+                name="cpw"
+                minlength="8"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="ph">Phone *</label></td>
+            <td colspan="3"><input type="tel" id="ph" name="ph" required /></td>
+          </tr>
+          <tr>
+            <td>Sex</td>
+            <td colspan="3">
+              <input type="radio" id="male" name="sex" value="Male" checked />
+               
+              <label for="male">Male</label>
+              <input type="radio" id="fmale" name="sex" value="Female" />
+              <label for="fmale">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="4" align="center">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
+            </td>
+          </tr>
+           
+        </table>
+      </form>
+    </body>
+
+    <footer>
+      <hr />
+      <h2>More Links</h2>
+      <ul>
+        <li><a href="hub.html" target="_blank">Hub</a></li>
+        <li><a href="link.html" target="_blank">Link</a></li>
+        <li><a href="video.html" target="_blank">Video</a></li>
+      </ul>
+      <br />
+      <p>&emsp;© Jemmy ~ All right reserved | <a href="#top">Back to Top</a></p>
+    </footer>
+  </font>
+</html>
